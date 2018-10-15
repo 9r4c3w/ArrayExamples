@@ -30,7 +30,7 @@ class Main
          *          call this array ar1.  Print it out below.
          */
         int[] ar1= new int[i];
-        for (int i=0;i>n;i++);
+        for (int i=0;i<n;i++);
             ar1[i]=ar1[i];
             
         for (int i=0;i<n;i++)
@@ -137,6 +137,15 @@ class Main
         for (int i=0;i<ar1.length;i++)
             if (ar1[i]%2==1)
                System.out.println(ar1[i]);
+               
+        System.out.println(" ** Task 6C **");
+        // print elements if it is a multiple of 3
+        // AKA if ar1[i] is divisble by 3, print it out.
+        // AKA if ar1[2] has a zero as the remainer when divided by 3
+        for (int i=0 ; i<ar1.length ; i++)
+            if (ar1[i]%3==0)
+                System.out.println(ar1[i]);
+            
         
         /*
          * Task 7.  For each element in ar1, 
@@ -149,8 +158,18 @@ class Main
          *          ar[2]=30
          *          ar[3]=4
          */
-        System.out.println(" ** Task 7 ** ");
-        if (n/2)
+        System.out.println("** Task 7 **");
+        
+        for (int i=0 ; i<ar1.length ; i++)
+        {
+            if ( ar1[i]%2==1)
+                ar1[i] *=10;
+        }
+        
+        for (int i=0 ; i<ar1.length ; i++)
+            System.out.println(ar1[i]);
+        
+        
         
          /*
           * Task 8
