@@ -29,15 +29,17 @@ class Main
          * Task 1.  Create an array of integers from 0 to n-1
          *          call this array ar1.  Print it out below.
          */
-        int[] ar1= new int[i];
-        for (int i=0;i<n;i++);
-            ar1[i]=ar1[i];
-            
-        for (int i=0;i<n;i++)
+        System.out.println("***Task 1***");
+        int[] ar1 = new int[n];
+        
+        
+        for (int i=0 ; i<n ; i++)
+            ar1[i]=i;
+        
+        for (int i=0 ; i<n ; i++)
             System.out.println("ar1[" + i + "] = "+ar1[i]);
-            
-         
-        System.out.println("*** PRINTING ar1 *");
+        //                      ar1[    i    ] =   i
+
         
                 
         /*
